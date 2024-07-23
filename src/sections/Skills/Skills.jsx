@@ -49,10 +49,6 @@ function Skills() {
 					src={checkMarkIcon}
 					skill='Figma'
 				/>
-				<SkillList
-					src={checkMarkIcon}
-					skill='WordPress'
-				/>
 			</div>
 		</section>
 	);
