@@ -76,8 +76,8 @@ export default function Hero() {
 					</a>
 				</span>
 				<p className={styles.description}>
-					Aprés un master en géologie,je me suis découvert une passion pour le
-					développment et le numérique.
+					Aprés un master en géologie, je me suis découvert une passion pour le
+					développment web.
 				</p>
 				<a
 					href={CV}

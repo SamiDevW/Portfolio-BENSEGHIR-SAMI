@@ -3,6 +3,7 @@ import todo from "../../assets/todo.jpeg";
 import outdoor from "../../assets/outdoor.jpeg";
 import cvreact from "../../assets/cv-react.jpeg";
 import castle from "../../assets/castle.jpeg";
+import generic from "../../assets/generic.jpeg";
 
 import ProjectCard from "../../common/ProjectCard";
 function Projects() {
@@ -36,6 +37,24 @@ function Projects() {
 					link='https://samidevw.github.io/DungeonGame/'
 					h3='Dungeon Game'
 					p='A reproduction of a Dungeon Game'
+				/>
+				<ProjectCard
+					src={generic}
+					link='https://samidevw.github.io/guessGame/'
+					h3='Guess game'
+					p='A basic guess game with a touch of horror'
+				/>
+				<ProjectCard
+					src={generic}
+					link='https://samidevw.github.io/fizzBuzz/'
+					h3='FizzBuzz'
+					p='One of the classics in every coding language'
+				/>
+				<ProjectCard
+					src={generic}
+					link='https://github.com/SamiDevW/basicCrudProject'
+					h3='Basic CRUD API'
+					p='A CRUD project made on example users dataset'
 				/>
 			</div>
 		</section>
