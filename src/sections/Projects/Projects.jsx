@@ -21,7 +21,7 @@ function Projects() {
 				/>
 				<ProjectCard
 					src={outdoor}
-					link='"https://samidevw.github.io/OutdoorProject/"'
+					link='https://samidevw.github.io/OutdoorProject/'
 					h3='Outdoor Website'
 					p='A reproduction of a Wordpress site'
 				/>
