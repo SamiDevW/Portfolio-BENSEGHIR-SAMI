@@ -28,7 +28,7 @@ function Projects() {
 				<ProjectCard
 					src={cvreact}
 					link='https://cv-react-iota.vercel.app'
-					h3='curriculum vitae'
+					h3='Curriculum Vitae'
 					p='Full stack CV made with React and Node'
 				/>
 				<ProjectCard

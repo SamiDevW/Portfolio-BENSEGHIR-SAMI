@@ -49,7 +49,7 @@ export default function Hero() {
 				<span>
 					<a
 						href='https://twitter.com'
-						target='_blank'
+						target='https://x.com/belkacem_sami'
 					>
 						<img
 							src={twitterIcon}
@@ -57,7 +57,7 @@ export default function Hero() {
 						/>
 					</a>
 					<a
-						href='https://github.com'
+						href='https://github.com/SamiDevW'
 						target='_blank'
 					>
 						<img
@@ -66,7 +66,7 @@ export default function Hero() {
 						/>
 					</a>
 					<a
-						href='https://linkedin.com'
+						href='https://www.linkedin.com/in/belkacem-sami-benseghir-b39664242/'
 						target='_blank'
 					>
 						<img
