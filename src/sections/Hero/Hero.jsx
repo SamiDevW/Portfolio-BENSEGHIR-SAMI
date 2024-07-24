@@ -76,7 +76,8 @@ export default function Hero() {
 					</a>
 				</span>
 				<p className={styles.description}>
-					Motivé et adaptable, passionné par le développement informatique.
+					Motivé et adaptable, passionné par le développement informatique et la
+					création de projets innovants.
 				</p>
 				<a
 					href={CV}
