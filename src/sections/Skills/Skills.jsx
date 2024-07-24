@@ -17,7 +17,10 @@ function Skills() {
 					src={checkMarkIcon}
 					skill='Javascript'
 				/>
-
+				<SkillList
+					src={checkMarkIcon}
+					skill='Typescript'
+				/>
 				<SkillList
 					src={checkMarkIcon}
 					skill='Node'
