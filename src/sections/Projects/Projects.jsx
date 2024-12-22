@@ -1,5 +1,4 @@
 import styles from "./ProjectsStyles.module.css";
-import todo from "../../assets/todo.jpeg";
 import outdoor from "../../assets/outdoor.jpeg";
 import cvreact from "../../assets/cv-react.jpeg";
 import castle from "../../assets/castle.jpeg";
@@ -15,10 +14,10 @@ function Projects() {
 			<h1 className='sectionTitle'>Projects</h1>
 			<div className={styles.projectsContainer}>
 				<ProjectCard
-					src={todo}
-					link='https://samidevw.github.io/todo/'
+					src={generic}
+					link='https://samidevw.github.io/todolist/'
 					h3='Todolist'
-					p='A Todolist with todos stored in local storage'
+					p='A Todolist with drag and drop features'
 				/>
 				<ProjectCard
 					src={outdoor}
@@ -28,9 +27,9 @@ function Projects() {
 				/>
 				<ProjectCard
 					src={cvreact}
-					link='https://cv-react-iota.vercel.app'
+					link='https://cv-react-front.vercel.app/'
 					h3='Curriculum Vitae'
-					p='Full stack CV made with React and Node'
+					p='Full stack CV made with React and Express(Basic Auth and updatable data)'
 				/>
 				<ProjectCard
 					src={castle}

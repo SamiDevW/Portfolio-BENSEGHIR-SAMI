@@ -8,7 +8,7 @@ export const useTheme = () => useContext(ThemeContext);
 // ThemeProvider component to manage the theme and persist it in localStorage
 export const ThemeProvider = ({ children }) => {
 	const [theme, setTheme] = useState(
-		() => localStorage.getItem("theme") || "light"
+		() => localStorage.getItem("theme") || "dark"
 	);
 
 	useEffect(() => {
