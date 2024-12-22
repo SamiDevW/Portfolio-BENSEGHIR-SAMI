@@ -19,7 +19,7 @@ function Skills() {
 				/>
 				<SkillList
 					src={checkMarkIcon}
-					skill='Typescript'
+					skill='EJS'
 				/>
 				<SkillList
 					src={checkMarkIcon}
@@ -39,7 +39,7 @@ function Skills() {
 
 				<SkillList
 					src={checkMarkIcon}
-					skill='Tailwind CSS'
+					skill='Bootstrap, SCSS'
 				/>
 			</div>
 			<hr />

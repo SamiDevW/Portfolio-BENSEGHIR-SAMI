@@ -3,7 +3,6 @@ import outdoor from "../../assets/outdoor.jpeg";
 import cvreact from "../../assets/cv-react.jpeg";
 import castle from "../../assets/castle.jpeg";
 import generic from "../../assets/generic.jpeg";
-
 import ProjectCard from "../../common/ProjectCard";
 function Projects() {
 	return (
@@ -30,6 +29,14 @@ function Projects() {
 					link='https://cv-react-front.vercel.app/'
 					h3='Curriculum Vitae'
 					p='Full stack CV made with React and Express(Basic Auth and updatable data)'
+				/>
+				<ProjectCard
+					src={
+						"https://images.unsplash.com/photo-1559521783-1d1599583485?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+					}
+					link='https://campshare-kh7c.onrender.com/'
+					h3='Campshare'
+					p='A EJS project with auth, sessions and geodata display.'
 				/>
 				<ProjectCard
 					src={castle}
